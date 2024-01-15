@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: Run Snyk to check for vulnerabilities for the project.
+      - name: Run Snyk to check for vulnerabilities for the project1.
         uses: snyk/actions/maven@master
         continue-on-error: true
         env:
